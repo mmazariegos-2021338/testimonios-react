@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  font-size: 18px;
+  background-color: #f5f6f7;
+  transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+h1 {
+  max-width: 940px;
+  font-size: 2.5em;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+  transition: margin 0.3s ease; /* Transición de margen */
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor-principal {
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición de color de fondo y sombra */
+}
+
+.contenedor-principal:hover {
+  background-color: #f0f0f0; /* Cambio de color al pasar el mouse */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada al pasar el mouse */
+}
